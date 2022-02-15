@@ -1,7 +1,8 @@
 <?php
 $count =0;
 for ($x = 5; $x <= 15; $x++) {
-    $count = $count + $x;
+    echo $x;
+    echo "<br>";
 }
 ?>
 
@@ -14,6 +15,6 @@ for ($x = 5; $x <= 15; $x++) {
     <title>Document</title>
 </head>
 <body>
-    <?php echo $count; ?>
+   
 </body>
 </html>
